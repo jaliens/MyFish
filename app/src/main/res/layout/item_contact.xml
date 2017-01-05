@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_marginLeft="15dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저는"/>
+        <Button
+            android:id="@+id/age_button"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/button_height"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/age_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="살이구요, "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locate"
+            android:textStyle="bold"
+            android:text=""
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="에 살고 있어요. \n"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제 직업은 "
+            />
+        <Button
+            android:id="@+id/job_button"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/job_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이에요. "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학교는 "
+            />
+        <Button
+            android:id="@+id/school_button"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12dp"
+            android:text=""
+            android:background="@drawable/school_button"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="를 다니고 있습니다."
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="키는 "
+            />
+        <Button
+            android:id="@+id/tall_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/tall_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이구요, 체형은"
+            />
+        <Button
+            android:id="@+id/body_button"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/body_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 입니다. \n"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종교는 "
+            />
+        <Button
+            android:id="@+id/religion_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/region_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이구요, 술은 "
+            />
+        <Button
+            android:id="@+id/drink_button"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/drink_smoke_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="요."
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="담배는 "
+            />
+        <Button
+            android:id="@+id/smoke_button"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/drink_smoke_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=". 제가 드리고 싶은 "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한 마디는, \n"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/speech_button"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/button_height"
+            android:textSize="12sp"
+            android:text=""
+            android:background="@drawable/wanna_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 입니다!"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        >
+        <Button
+            android:id="@+id/go_chatroom_btn"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/go_chat_button"
+            />
+
+    </LinearLayout>
+</LinearLayout>

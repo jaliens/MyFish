@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundlayout"
+        android:id="@+id/master_profile1">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:id="@+id/master_image1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:id="@+id/master_imageblur"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/master_image1">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:text="닉네임 비공개"
+                android:id="@+id/master_nickname1"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:text="15자 이내 하고 싶은 말 비공개"
+                android:id="@+id/master_speech1"
+                android:layout_below="@id/master_nickname1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/master_speech1"
+                android:id="@+id/master_areaAndage1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:text="지역 비공개"
+                    android:id="@+id/master_area1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:text="나이 비공개"
+                    android:id="@+id/master_age1"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="정보공개"
+            android:id="@+id/master_btn"/>
+    </RelativeLayout>
+</LinearLayout>

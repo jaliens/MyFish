@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg5"
+            android:layout_marginTop="56dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/select_profile1"
+                android:layout_marginTop="0dp">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/select_image1"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="false"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/select_image1">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:background="@drawable/select"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="false"
+                        android:id="@+id/check1"/>
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:background="@drawable/cancel"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="false"
+                        android:id="@+id/cancel1"/>
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:textSize="35sp"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="닉네임"
+
+                        android:id="@+id/select_nickname1"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/select_nickname1"
+                        android:orientation="horizontal"
+                        android:id="@+id/select_areaAndage1">
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:text="지역"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/select_area1"/>
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="나이"
+                            android:id="@+id/select_age1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="170dp"
+                        android:textAlignment="center"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="103dp"
+                        android:text="15자 이내 하고 싶은 말"
+                        android:id="@+id/select_speech1"
+                        android:layout_below="@id/select_nickname1"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="170dp"
+                        android:layout_below="@id/select_areaAndage1">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="담기"
+                            android:id="@+id/select_putbtn1"/>
+                        <!--Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="담지않기"
+                            android:id="@+id/select_cancelbtn1"/-->
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:text="어장가기"
+                            android:id="@+id/select_gofishery"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:background="#55222266"
+                    android:id="@+id/select_blur1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+       <!--RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+            <ScrollView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:fillViewport="false">
+
+                <TextView
+                    android:id="@+id/result1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="내어장"/>
+            </ScrollView>
+           <ScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="16dp"
+               android:fillViewport="false"
+               android:layout_marginLeft="200dp">
+
+               <TextView
+                   android:id="@+id/result2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="역대 받았던 이성"/>
+           </ScrollView>
+         </RelativeLayout-->
+
+</LinearLayout>

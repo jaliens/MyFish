@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "1098175764988",
+    "firebase_url": "https://api-project-1098175764988.firebaseio.com",
+    "project_id": "api-project-1098175764988",
+    "storage_bucket": "api-project-1098175764988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098175764988:android:fe4f2045f62f6324",
+        "android_client_info": {
+          "package_name": "jjy.mygcmtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098175764988-bv7eesar3fbob7pc84h7ao1h169s5n3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CgNXWPbesGWQ-4F1hquBXetyxFSz0YY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098175764988:android:440b69997511952e",
+        "android_client_info": {
+          "package_name": "jjy.fcmsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098175764988-bv7eesar3fbob7pc84h7ao1h169s5n3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CgNXWPbesGWQ-4F1hquBXetyxFSz0YY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098175764988:android:1d579dc2ed8882bf",
+        "android_client_info": {
+          "package_name": "jjy.myfishchatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098175764988-bv7eesar3fbob7pc84h7ao1h169s5n3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CgNXWPbesGWQ-4F1hquBXetyxFSz0YY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098175764988:android:82a8720c0a4a6207",
+        "android_client_info": {
+          "package_name": "com.flavienlaurent.notboringactionbar.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098175764988-bv7eesar3fbob7pc84h7ao1h169s5n3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CgNXWPbesGWQ-4F1hquBXetyxFSz0YY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

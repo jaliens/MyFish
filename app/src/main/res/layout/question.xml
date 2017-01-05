@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_img"
+        />
+    <!-- Text Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="질문:"
+        android:layout_marginBottom="5dp"
+        />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:layout_marginTop="170dp"
+
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        />
+    <EditText
+        android:id="@+id/edittext"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:hint="Input"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:text="Insert"
+        android:layout_gravity="center"        />
+
+    <TextView android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_alignTop="@+id/edittext"
+        />
+
+
+</RelativeLayout>

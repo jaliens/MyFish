@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundlayout"
+        android:id="@+id/select_profile1">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:id="@+id/select_image1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/select_image1">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:text="닉네임"
+                android:id="@+id/select_nickname1"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:text="15자 이내 하고 싶은 말"
+                android:id="@+id/select_speech1"
+                android:layout_below="@id/select_nickname1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/select_speech1"
+                android:id="@+id/select_areaAndage1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:text="지역"
+                    android:id="@+id/select_area1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:text="나이"
+                    android:id="@+id/select_age1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/select_areaAndage1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="담기"
+                    android:id="@+id/select_putbtn1"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="담지않기"
+                    android:id="@+id/select_cancelbtn1"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

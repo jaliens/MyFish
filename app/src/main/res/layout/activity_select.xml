@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/select_linear"
+>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--app:popupTheme="@style/AppTheme" />-->
+
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<!--<github.chenupt.springindicator.viewpager.ScrollerViewPager-->
+<!--android:id="@+id/view_pager"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_gravity="center" />-->
+
+
+<!--<github.chenupt.springindicator.SpringIndicator-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--app:siTextSize="18sp"-->
+
+<!--app:siTextColor="@color/colorPrimaryDark"-->
+<!--app:siSelectedTextColor="@android:color/white"-->
+<!--app:siIndicatorColor="@color/colorPrimary"-->
+<!--android:id="@+id/indicator"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="56dp"-->
+<!--android:layout_marginLeft="24dp"-->
+<!--android:layout_marginRight="24dp" />-->
+</FrameLayout>
+
+</LinearLayout>
